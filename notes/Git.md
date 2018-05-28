@@ -1,6 +1,3 @@
-<div align="center"> <img src="../pics//98fb8a54-e916-440e-ab4f-73b2955838c9.jpg" width="100%"/> </div><br>
-
-
 <!-- GFM-TOC -->
 * [学习资料](#学习资料)
 * [集中式与分布式](#集中式与分布式)
@@ -82,7 +79,7 @@ Git 把每次提交都连成一条时间线。分支使用指针来实现，例�
 
 # 冲突
 
-当两个分支都对同一个文件进行了修改，在分支合并时就会产生冲突。
+当两个分支都对同一个文件的同一行进行了修改，在分支合并时就会产生冲突。
 
 <div align="center"> <img src="../pics//58e57a21-6b6b-40b6-af85-956dd4e0f55a.jpg"/> </div><br>
 
@@ -132,7 +129,7 @@ HEAD is now at 049d078 added the index file (To restore them type "git stash app
 
 # SSH 传输设置
 
-Git 仓库和 Github 中心仓库之间是通过 SSH 加密。
+Git 仓库和 Github 中心仓库之间的传输是通过 SSH 加密。
 
 如果工作区下没有 .ssh 目录，或者该目录下没有 id_rsa 和 id_rsa.pub 这两个文件，可以通过以下命令来创建 SSH Key：
 
@@ -146,9 +143,9 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 
 忽略以下文件：
 
-1. 操作系统自动生成的文件，比如缩略图；
-2. 编译生成的中间文件，比如 Java 编译产生的 .class 文件；
-3. 自己的敏感信息，比如存放口令的配置文件。
+- 操作系统自动生成的文件，比如缩略图；
+- 编译生成的中间文件，比如 Java 编译产生的 .class 文件；
+- 自己的敏感信息，比如存放口令的配置文件。
 
 不需要全部自己编写，可以到 [https://github.com/github/gitignore](https://github.com/github/gitignore) 中进行查询。
 
@@ -157,3 +154,5 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 <div align="center"> <img src="../pics//7a29acce-f243-4914-9f00-f2988c528412.jpg"/> </div><br>
 
 比较详细的地址：http://www.cheat-sheets.org/saved-copy/git-cheat-sheet.pdf
+
+
